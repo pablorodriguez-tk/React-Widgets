@@ -54,7 +54,7 @@ const Search = () => {
 
   return (
     <div>
-      <div className="ui form">
+      <div className="ui form container">
         <div className="field">
           <label>Enter Search Term</label>
           <input
@@ -64,7 +64,7 @@ const Search = () => {
           ></input>
         </div>
       </div>
-      <div className="ui celled list">{renderedResults}</div>
+      <div className="ui celled list container">{renderedResults}</div>
     </div>
   );
 };
